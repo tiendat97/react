@@ -9,7 +9,7 @@ const todos = [
   },
   {
     task: "eat lunch",
-    isCompleted: true
+    isCompleted: false
   }
 ];
 
@@ -56,7 +56,7 @@ class app extends React.Component {
   };
 
   deleteTask(taskToDelete) {
-	  _.remove(this.state.todos, todo => todo.task === taskToDelete);
+    _.remove(this.state.todos, todo => todo.task === taskToDelete);
 	  this.setState({todos: this.state.todos});
   }
 }

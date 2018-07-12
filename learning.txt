@@ -1,0 +1,20 @@
+Content:
+1, ECMAScript 201x - ES6;
+Mot vai tinh nang quan trong ES6:
++ sses.
++ Arrow function.
++ Constant
++ Scope (variables, functions).
++ map() function.
++ Destructuring assignment.
++ Template string. (tuy chon, nhung no rat huu ich cho viec dinh dang chuoi)
+2, Babel; 
+3, React;
++ Xay dung 2 phan server/client rieng biet de lam quen voi viec call API.
++ Build Todo App(ap dung map, reduce, filter…) 
++ 
+
+
+4, Redux;
+5, MongoDB, Mongoose (Node);
+6, Feathers.
