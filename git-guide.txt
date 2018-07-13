@@ -17,4 +17,4 @@ $ git mv [file_from] [file_to]: di chuyen file.
 $ git log: xem lich su commit (giao dien thuong).
 $ gitk : xem lich su commit(giao dien do hoa).
 $ git pull origin master: keo cac thay doi tu nhanh chinh
-$ git push origin master: Day tap tin len may chu trung tam..
+$ git push origin master: Day tap tin len may chu trung tam.
