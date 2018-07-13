@@ -1,20 +1,20 @@
-+ git clone [url]: sao chep kho chua ve thu muc.
-+ git status: kiem tra trang thai thay doi cua git.
-+ git add [file]: them tung file.
-+ git add -all: them tat ca file thay doi. 
-+ Bo qua cac tap tin: 
+$ git clone [url]: sao chep kho chua ve thu muc.
+$ git status: kiem tra trang thai thay doi cua git.
+$ git add [file]: them tung file.
+$ git add -all: them tat ca file thay doi. 
+$ Bo qua cac tap tin: 
 [
  .gitignore:
  $ cat .gitignore
  *.[oa]
  *~
 ]
-+ git diff: kiem tra thay doi cua tap tin.
-+ git commit -m " ": commit file.
-+ git commit -a -m " ": commit file bo qua git add.
-+ git rm [file]: xoa tap tin khoi khu vuc lam viec.
-+ git mv [file_from] [file_to]: di chuyen file.
-+ git log: xem lich su commit (giao dien thuong).
-+ gitk : xem lich su commit(giao dien do hoa).
-+ git pull origin development: keo cac thay doi tu nhanh chinh
-+ git push origin master: Day tap tin len may chu trung tam.
+$ git diff: kiem tra thay doi cua tap tin.
+$ git commit -m " ": commit file.
+$ git commit -a -m " ": commit file bo qua git add.
+$ git rm [file]: xoa tap tin khoi khu vuc lam viec.
+$ git mv [file_from] [file_to]: di chuyen file.
+$ git log: xem lich su commit (giao dien thuong).
+$ gitk : xem lich su commit(giao dien do hoa).
+$ git pull origin: keo cac thay doi tu nhanh chinh
+$ git push origin master: Day tap tin len may chu trung tam.
