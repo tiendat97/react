@@ -1,7 +1,7 @@
 $ git clone [url]: sao chep kho chua ve thu muc.
 $ git status: kiem tra trang thai thay doi cua git.
 $ git add [file]: them tung file.
-$ git add -all: them tat ca file thay doi. 
+$ git add --all: them tat ca file thay doi. 
 $ Bo qua cac tap tin: 
 [
  .gitignore:
