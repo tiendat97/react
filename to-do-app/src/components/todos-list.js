@@ -1,7 +1,6 @@
 import React from 'react';
-import TodosListHeader from './todo-list-header';
+import TodosListHeader from './todos-list-header';
 import _ from 'lodash';
-import ReactDOM from 'react-dom';
 import TodosListItems from './todos-list-item';
 
 class TodosList extends React.Component{

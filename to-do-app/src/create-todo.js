@@ -25,7 +25,7 @@ class CreateToDo extends React.Component{
     }
 
     handleCreate(event){
-        event.preventDefault(); // khong load lai page
+        event.preventDefault(); // don't load page again.
         
         const createInput = this.refs.createInput;
         const task = createInput.value;
