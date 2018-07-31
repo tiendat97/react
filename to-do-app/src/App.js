@@ -24,18 +24,16 @@ class app extends React.Component {
       todos
     };
   }
-
+  
   render() {
     return (
       <div>
         <h1> Todos App </h1>
         <AddTodo />
-        <CreateToDo
-          todos={this.state.todos}
+        <CreateToDo      
           createTask={this.createTask.bind(this)}
         />
         <TodosList
-          todos={this.state.todos}
           toggleTask={this.toggleTask.bind(this)}
           saveTask={this.saveTask.bind(this)}
           deleteTask={this.deleteTask.bind(this)}

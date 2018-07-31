@@ -4,17 +4,19 @@ import { connect } from 'react-redux'
 
 const AddTodo = ({ dispatch }) => {
     let inputTask;
+
+    onSubmit((e) => {
+        e.preventDefault();
+        if (!inputTask.value.trim()) {
+            return;
+          }
+          dispatch(addTodo(inputTask.value))
+          inputTask.value = ''
+        })
     return (
         <div>
         <form
-          onSubmit={e => {
-            e.preventDefault()
-            if (!inputTask.value.trim()) {
-              return
-            }
-            dispatch(addTodo(inputTask.value))
-            inputTask.value = ''
-            }}
+          onSubmit={this.onSubmit.bind(this)}
         >
             <input ref={myInput => inputTask = myInput} />
             <button type="submit">
